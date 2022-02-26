@@ -136,3 +136,21 @@ Description:  You can add your custom CSS here and it will overwrite template st
         margin-top: 40px;
     }
 }
+
+.page-bg-logo {
+  opacity: 1 !important;
+  -webkit-transform: scale(1) translate3d(-50%, -50%, 0) !important;
+  transform: scale(1) translate3d(-50%, -50%, 0) !important;
+}
+
+.ncr-page-decor__layer-3 {
+  opacity: 0.7 !important;
+}
+
+.ncr-page-decor__layer-1, .ncr-page-decor__layer-2, .ncr-page-decor__layer-3, .ncr-page-decor__layer-4, .ncr-page-decor__layer-5, .ncr-page-decor__layer-6 {
+  opacity: 1 !important;
+}
+
+body {
+  overflow: auto;
+}

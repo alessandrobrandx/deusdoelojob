@@ -34,12 +34,6 @@
 
 	<!-- CSS
 	================================================== -->
-	<!-- Vendor CSS -->
-	<link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/slick.css" rel="stylesheet">
-	<link href="css/nanoscroller.css" rel="stylesheet">
-	<link href="css/brands.css">
-
 	<!-- Template CSS-->
 	<link href="css/style.css" rel="stylesheet">
 
@@ -79,7 +73,7 @@
 	}
 </style>
 
-<body class="site-layout--landing preloader-is--active preloader--no-transform">
+<body class="site-layout--landing preloader--no-transform">
 
 	<div class="site-wrapper">
 
@@ -214,14 +208,16 @@
 	================================================== -->
 	<!-- Core JS -->
 	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery-migrate.min.js"></script>
-	<script src="js/bootstrap.bundle.min.js"></script>
-	<script src="js/core.js"></script>
-	
-	<!-- Vendor JS -->
+	<script>
+		menuToggle  = $( '.header-menu-toggle' )
+
+		menuToggle.click(function(){
+			$(this).toggleClass('toggled')
+			$('.site-layout--default').toggleClass('site-wrapper--has-menu-overlay')
+		});
+	</script>
 	
 	<!-- Template JS -->
-	<script src="js/init.js"></script>
 	<script src="js/custom.js"></script>
 	
 	<!-- Duotone SVG color filter -->
