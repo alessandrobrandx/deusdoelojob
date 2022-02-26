@@ -66,7 +66,7 @@ Description:  You can add your custom CSS here and it will overwrite template st
     height: 60px;
     font-size: 32px;
     background: #fbbe04;
-    animation: pulse 1s infinite alternate;
+    /* animation: pulse 1s infinite alternate; */
     transition: 1s;
     border-radius: 20px;
 }
