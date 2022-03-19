@@ -87,7 +87,7 @@ function whats() {
         type = "api"
     }
 
-    var url = `https://${type}.whatsapp.com/send?1=pt_BR&phone=5571996656742&text=`.concat(text);
+    var url = `https://${type}.whatsapp.com/send?1=pt_BR&phone=5571984320803&text=`.concat(text);
 
     window.open(url);
 }
